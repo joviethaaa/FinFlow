@@ -1,0 +1,5 @@
+pandas
+requests
+pg8000
+python-dotenv
+pytest

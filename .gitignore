@@ -1,0 +1,48 @@
+
+# ========================================
+# FinFlow - Git Ignore Configuration
+# ========================================
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+logs/
+*.log
+
+# Local Data
+data/raw/
+data/processed/
+
+# Apache Airflow Local Files
+airflow/standalone_admin_password.txt
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/metadata/
+airflow/logs/
+airflow/plugins/__pycache__/
+
+# Local Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
